@@ -1,0 +1,53 @@
+.movie-page
+  margin: 1rem auto
+  display: grid
+  grid-template-columns: 25% 25% 25% 25%
+  gap: 10px
+
+
+.load-more-btn
+  position: relative
+  font-weight: 500
+  font-size: 20px
+  width: 250px
+  padding: 0.6rem 1.4rem
+  color: white
+  // background: linear-gradient(97.05deg, #fa2d50 3.76%, #b0122d 100%)
+  // background: transparent
+  border: 1px solid #b0122d
+  border-radius: 4px
+  transition: all 300ms ease-in
+  margin-left: 50%
+  margin-right: 50%
+  left: -130px
+
+
+  &:hover 
+    background: linear-gradient(97.05deg, #fa2d50 3.76%, #b0122d 100%)
+    cursor: pointer
+    transform: scale(1.1)
+
+  span 
+    display: flex
+    flex-direction: column
+
+    i 
+      font-size: 30px
+      margin-top: -5px
+
+  
+.centered-div 
+  display: flex
+  align-items: center
+  justify-content: center
+  color: #fff
+
+
+.pagination 
+  margin-top: 50px
+
+.MuiPaginationItem-root
+  color: #F07489 !important
+
+  &[aria-current="true"]
+    background-color: #242836 !important
